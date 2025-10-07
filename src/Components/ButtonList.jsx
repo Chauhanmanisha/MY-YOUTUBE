@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const ButtonList = () => {
 
-    const btnList = ["All", "Music", "Live", "Cricket", "News", "AI", "Gaming", "Movie", "Animated films", "Indian pop music", "Dance video","Mixes", "Dramedy"];
+    const btnList = ["All", "Music", "Live", "Cricket", "News", "AI", "Gaming", "Movie", "Animated films", "Indian pop music", "Dance video","Mixes","New"];
 
     return (
          <div className="flex gap-2">
