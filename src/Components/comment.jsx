@@ -14,8 +14,8 @@ const Comment = ({name,text,replies}) => {
                
                   <div>
                      <h1 className="font-bold ml-5">Replies</h1>
-                     {replies.map((reply) => 
-                        <div className="ml-10">
+                     {replies.map((reply,index) => 
+                        <div className="ml-10" key={index}>
                            <p className="font-semibold">{reply?.name}</p>
                            <p className="text-gray-600 text-sm">{reply?.text}</p>
                         </div>

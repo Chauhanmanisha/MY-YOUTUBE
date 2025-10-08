@@ -324,10 +324,10 @@ import Comment from "./comment";
            <div className="space-y-3">
               {commentsData.map((comment,index) => (
 
-                <div>
+                
                     <Comment key={index} name={comment.name} text={comment.text} replies={comment.replies}/>
 
-                </div>
+                
 
                 
               ))}
